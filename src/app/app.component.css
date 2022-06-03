@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.logo_hotel{
+    width: 120px;
+
+}
+
+.title {
+    color: rgb(226, 214, 43);
+    font-size: 30px;
+    text-align:end;
+    margin-top: 10px;
+
+}
+
+.Buton {
+    width: auto;
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+}
+
+.m {
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+}
+
+.mcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.mlinks {
+    height: 100%;
+    transition: transform .5s;
+    display: flex;
+}
+
+.mitem {
+    list-style: none;
+    position: relative;
+    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+    --transform: rotate(-90deg);
+}
+
+.mitem:hover {
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --transform: rotate(0);
+}
+
+.mlink {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.mlink:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+.marrow {
+ width: 30px;
+}
+
+.mnesting {
+    list-style: none;
+    transition: clip-path .3s;
+    clip-path: var(--clip);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: max-content;
+    transform: translateY(100%);
+    background-color: #000;
+}
+
+.mlink--inside {
+    padding: 10px 50px 10px 5px;
+}
+
+.mlink--inside:hover {
+    background-color: #000;
+}
+
+.m__logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
