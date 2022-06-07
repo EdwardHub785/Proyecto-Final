@@ -59,7 +59,7 @@ body {
 }
 
 .mlink {
-    color: #fff;
+    color: rgb(226, 214, 43);
     text-decoration: none;
     padding: 30px;
     display: flex;
@@ -98,4 +98,7 @@ body {
 .m__logo {
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
+}
+a{
+    color: rgb(226, 214, 43);
 }
