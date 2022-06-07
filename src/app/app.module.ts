@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioCompComponent } from './component/inicio-comp/inicio-comp.component';
 import { LoginCompComponent } from './component/login-comp/login-comp.component';
+import { RecepcionCompComponent } from './component/recepcion-comp/recepcion-comp.component';
+import { ReservaCompComponent } from './component/reserva-comp/reserva-comp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioCompComponent,
-    LoginCompComponent
+    LoginCompComponent,
+    RecepcionCompComponent,
+    ReservaCompComponent
   ],
   imports: [
     BrowserModule,
