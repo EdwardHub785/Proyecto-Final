@@ -1,0 +1,17 @@
+.card{
+    margin: 50px;
+    margin-left: 180px;
+}
+a{
+    margin-top: 15px;
+}
+input{
+    width: 250px;
+}
+.divconsulta{
+    display: flex;
+    flex-direction: row;
+}
+.table{
+    margin-top: 50px;
+}
