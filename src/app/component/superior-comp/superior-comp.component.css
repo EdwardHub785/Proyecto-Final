@@ -1,10 +1,10 @@
 .contenedor{
     display: flex;
     flex-direction: row;
-    margin: 70px;
+    margin: 50px;
 }
 .table{
-    margin:70px;
+    margin-left: 15px;
 }
 th{
     text-align: center;

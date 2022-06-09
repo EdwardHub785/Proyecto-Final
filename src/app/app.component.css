@@ -10,7 +10,7 @@ body {
 }
 
 .title {
-    color: rgb(226, 214, 43);
+    color: rgb(245, 218, 62);
     font-size: 30px;
     text-align:end;
     margin-top: 10px;
@@ -59,22 +59,13 @@ body {
 }
 
 .mlink {
-    color: rgb(226, 214, 43);
+    color: rgb(245, 218, 62);
     text-decoration: none;
-    padding: 30px;
+    padding: 25px;
     display: flex;
     height: 100%;
-    align-items: center;
+    margin-top: 30px;
 }
-
-.mlink:hover {
-    background-color: rgb(56, 55, 55);
-}
-
-.marrow {
- width: 30px;
-}
-
 .mnesting {
     list-style: none;
     transition: clip-path .3s;
@@ -87,17 +78,8 @@ body {
     background-color: #000;
 }
 
-.mlink--inside {
-    padding: 10px 50px 10px 5px;
-}
-
 .mlink--inside:hover {
     background-color: #000;
-}
-
-.m__logo {
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
 }
 a{
     color: rgb(226, 214, 43);

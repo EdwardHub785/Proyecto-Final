@@ -1,78 +1,126 @@
-header {
-  width: 100%;
-  height: 525px;
-  background-image: url("/assets/hotel-riazor_01.jpg");
-}
-
 .btn-1 {
   padding: 10px;
-  width: 170px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: darkkhaki;
+  width: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(7, 7, 7);
   border: none;
   border-radius: 10px;
+  color: rgb(245, 218, 62);
 }
 
 .btn-1:hover {
   transition: all 1s;
-  background-color: rgb(249, 252, 115);
-
+  background-color: rgb(245, 218, 62);
+  color: black;
 }
 
 .contenedor {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  padding-block: 20px;
-  padding-left: 400px;
-}
-.h1{
-display: flex;
-flex-direction: row;
-justify-content: center;
-color: aliceblue;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.carousel-indicators{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-#carouselExampleDark{
-    margin-top: 10px;
-    width: 60%;
-    height: 100%;
-}
-img{
-    width: 100%;
-    height: 350px;
-}
-p{
-    color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:lighter;
-}
-a{
-    text-decoration: none;
-}
-.btn-2:hover {
-  transition: all 1s;
-  background-color: rgb(249, 252, 115);
-
-}
-.btn-2 {
-  padding: 10px;
-  width: 170px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: darkkhaki;
-  border: none;
-  border-radius: 10px;
-  margin-left: 240px;
-}
-.buttons{
-  display: flex;
   flex-direction: row;
 }
 
+#carouselExampleDark {
+  width: 100%;
+  height: 100%;
+}
 
+p {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-2:hover {
+  transition: all 1s;
+  background-color: rgb(245, 218, 62);
+  color: black;
+
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 520px;
+  filter: saturate(1.5);
+}
+
+.btn-2 {
+  padding: 10px;
+  width: 240px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(8, 8, 8);
+  border: none;
+  border-radius: 10px;
+  color: rgb(245, 218, 62)
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  font-size: 18px;
+
+}
+
+.button1 {
+  margin-right: 600px;
+}
+
+.carousel-indicators {
+  margin-bottom: 45px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 500px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.habita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://www.eltiempo.com/uploads/2017/11/21/5a14c15d45052.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  filter:brightness(1)
+}
+
+.img-fluid {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.h1 {
+  text-align: center;
+  height: 30px;
+  font-style: oblique;
+  margin-bottom: 10px;
+  margin-top: 75px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.habitaciones {
+  display: flex;
+  flex-direction: row;
+}
+.btn-success{
+  margin: 30px;
+}
+
+.card-title{
+  font-weight: 700;
+}
+
+.card-text{
+  font-weight: 300;
+}

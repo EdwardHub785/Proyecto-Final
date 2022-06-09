@@ -1,43 +1,41 @@
 <header>
     <div class="contenedor">
-        <div class="buttons">
-            <a routerLink="/reserva"><button class="btn-1">Reserve Ya</button></a>
-            <a routerLink="/consultar"><button class="btn-2">Consulta tu Reserva</button></a>
-        </div>
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+            <div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="15000">
-                    <a routerLink="/deLuxe"><img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/05/20152451/Mandarin-Oriental-Hong-Kong-3.jpg"
-                            class="d-block w-100" alt="..."></a>
+                <div class="carousel-item active" data-bs-interval="18000">
+                    <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/05/20152451/Mandarin-Oriental-Hong-Kong-3.jpg"
+                        class="d-block " alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Suite de Luxe</h5>
                         <p>Te gusta el lujo? Tenemos este servicio de Luxe.</p>
                     </div>
+
                 </div>
                 <div class="carousel-item" data-bs-interval="20000">
-                    <a routerLink="/comfort"><img
-                            src="https://static.abc.es/Media/201504/27/hotel12--644x362.jpg"
-                            class="d-block w-100" alt="..."></a>
+                    <img src="https://static.abc.es/Media/201504/27/hotel12--644x362.jpg" class="d-block w-100"
+                        alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Comfort Suite</h5>
                         <p>El comfort hecho en una habitacion.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <a routerLink="/superior"><img
-                            src="https://www.estelarparquedela93.com/cache/ce/83/ce83be0db7848a4b7649381901b58891.jpg"
-                            class="d-block w-100" alt="..."></a>
+                    <img src="https://www.estelarparquedela93.com/cache/ce/83/ce83be0db7848a4b7649381901b58891.jpg"
+                        class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Superior King</h5>
-                        <p>Para aquellos que prefieren una habitación más grande. Quedarás encantado con la decoración.
+                        <p>Para aquellos que prefieren una habitación más grande. Quedarás encantado con la
+                            decoración.
                         </p>
                     </div>
                 </div>
@@ -53,10 +51,84 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
-    <div class="h1">
         <div>
-            <h1>Superamos tus expectativas</h1>
+            <div class="carousel-indicators">
+                <div class="botones">
+                    <div class="button1">
+                        <a routerLink="/reserva"><button class="btn-1">Reserve Ya</button></a>
+                    </div>
+                    <div class="button2">
+                        <div>
+                            <a routerLink="/consultar"><button class="btn-2">Consulta tu Reserva</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-</header>
+    <div>
+        <div class="habita">
+            <div class="h1">
+                <div>
+                    <h1>Superamos tus expectativas con nuestras habitaciones</h1>
+                </div>
+            </div>
+            <div class="habitaciones">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-12">
+                            <a routerLink="/comfort"><img
+                                    src="https://static.abc.es/Media/201504/27/hotel12--644x362.jpg"
+                                    class="img-fluid rounded-start" alt="..."></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Comfort Suite</h5>
+                                <p class="card-text">Con sus hermosos detalles inspirados en el comfort esta habitación
+                                    es ideal para esas personas que siempre quieren algo más conocela!!! </p>
+                                <a routerLink="/comfort"><button class="btn btn-primary">Ver más</button></a>
+                                <a routerLink="/reserva"><button class="btn btn-success">Reservar</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-12">
+                            <a routerLink="/superior"><img
+                                    src="https://www.estelarparquedela93.com/cache/ce/83/ce83be0db7848a4b7649381901b58891.jpg"
+                                    class="img-fluid rounded-start" alt="..."></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Superior King</h5>
+                                <p class="card-text">Un buen viaje es posible cuando elegimos una confortable y amplia
+                                    habitación como la Superior King.​</p>
+                                <a routerLink="/superior"><button class="btn btn-primary">Ver más</button></a>
+                                <a routerLink="/reserva"><button class="btn btn-success">Reservar</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-12">
+                            <a routerLink="/deLuxe"><img
+                                    src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/05/20152451/Mandarin-Oriental-Hong-Kong-3.jpg"
+                                    class="img-fluid rounded-start" alt="..."></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Suite de Luxe</h5>
+                                <p class="card-text">Duerme y descansa en la habitación Deluxe con balcón y una
+                                    maravillosa vista. Te despertarás cada mañana listo para alcanzar un gran día</p>
+                                <a routerLink="/deLuxe"><button class="btn btn-primary">Ver más</button></a>
+                                <a routerLink="/reserva"><button class="btn btn-success">Reservar</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
