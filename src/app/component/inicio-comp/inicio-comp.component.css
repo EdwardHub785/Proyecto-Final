@@ -124,3 +124,15 @@ header {
 .card-text{
   font-weight: 300;
 }
+#cardService{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service{
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-image: url(https://www.innaturale.com/es/wp-content/uploads/2018/06/quemar-comida-chef.jpg);
+  background-size: cover;
+}
