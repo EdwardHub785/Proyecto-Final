@@ -53,3 +53,11 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+  #btnGurdar{
+    background-color: black;
+  }
+
+  .mb-1{
+    color: black;
+  }

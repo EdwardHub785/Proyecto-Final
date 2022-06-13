@@ -11,6 +11,9 @@ import { DeLuxeCompComponent } from './component/de-luxe-comp/de-luxe-comp.compo
 import { ComfortCompComponent } from './component/comfort-comp/comfort-comp.component';
 import { SuperiorCompComponent } from './component/superior-comp/superior-comp.component';
 import { ConsultarCompComponent } from './component/consultar-comp/consultar-comp.component';
+import { RestautanteCompComponent } from './component/restautante-comp/restautante-comp.component';
+import { GimnasioCompComponent } from './component/gimnasio-comp/gimnasio-comp.component';
+import { LavanderiaCompComponent } from './component/lavanderia-comp/lavanderia-comp.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ConsultarCompComponent } from './component/consultar-comp/consultar-com
     DeLuxeCompComponent,
     ComfortCompComponent,
     SuperiorCompComponent,
-    ConsultarCompComponent
+    ConsultarCompComponent,
+    RestautanteCompComponent,
+    GimnasioCompComponent,
+    LavanderiaCompComponent
   ],
   imports: [
     BrowserModule,
