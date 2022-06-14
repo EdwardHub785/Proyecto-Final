@@ -17,9 +17,6 @@
 .contenedor {
   display: flex;
   flex-direction: row;
-  background-image: url(https://www.decameron.com/images/thumbnail/colombia/baru-05.jpg);
-  background-repeat: no-repeat;
-  background-size:  100%  110%;
 }
 
 #carouselExampleDark {

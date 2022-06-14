@@ -1,17 +1,28 @@
-.card{
-    margin: 50px;
-    margin-left: 180px;
+.card {
+  margin: 50px;
+  margin-left: 500px;
 }
-a{
-    margin-top: 15px;
+
+a {
+  margin-top: 15px;
 }
-input{
-    width: 250px;
+
+input {
+  width: 250px;
 }
-.divconsulta{
-    display: flex;
-    flex-direction: row;
+
+.divconsulta {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://i.blogs.es/a7ce3d/7yxd9/1366_2000.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-.table{
-    margin-top: 50px;
+
+.table {
+  width: 75%;
+  margin-top: 40px;
+  background-color: antiquewhite;
+  margin-left: 150px;
+  
 }
