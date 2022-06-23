@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+}
+.table{
+    margin:15px;
+    margin-left: 20px;
+}
+th{
+    text-align: center;
+}
+img{
+    width: 600px;
+    height: 380px;
+}

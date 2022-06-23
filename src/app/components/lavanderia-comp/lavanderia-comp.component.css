@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    color: goldenrod;
+    margin: 10px;
+    margin-left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .Lavanderia {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 525px;
+    background-image: url(https://media.istockphoto.com/photos/cheerful-maid-touching-button-on-washing-machine-in-laundry-picture-id1163571374?k=20&m=1163571374&s=612x612&w=0&h=LdEMmSu9lmEL3oQf3xxr6O1iqjbJP5vf2aQjffHTQSg=);
+    background-repeat: no-repeat;
+    background-color: rgb(199, 198, 198);
+    
+  }
+  
+  .c1 {
+    width: 45%;
+    margin-left: 380px;
+    margin-top: 58px;
+    margin-bottom: 200px;
+    
+  }
+  table{
+      width: 590px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 5px;
+   background-color: cadetblue;
+      margin-top: 32px;
+  }
+  img{
+      filter: brightness(1);
+      height: 250px; 
+  }
+  .botonAgendarLavanderia{
+      display: flex;
+      flex-direction: row;
+      margin-left: 150px;
+      margin-top: 40px;
+  }
+ 
+  p{
+    margin-top: 30px;
+  }

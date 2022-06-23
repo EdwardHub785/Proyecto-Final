@@ -1,0 +1,69 @@
+<div class="body">
+    <h2>Datos de su Reserva</h2>
+    <table class="table table-success table-striped">
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Documento</th>
+            <th>Fecha Entrada</th>
+            <th>Fecha Salida</th>
+            <th>Pais de Origen</th>
+            <th>Email</th>
+            <th>Codigo Reserva</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let v of servicioLuis.documentos">
+                <td>{{v.nombre}}</td>
+                <td>{{v.apellido}}</td>
+                <td>{{v.documento}}</td>
+                <td>{{v.f_entrada}}</td>
+                <td>{{v.f_salida}}</td>
+                <td>{{v.pais}}</td>
+                <td>{{v.email}}</td>
+                <td>{{v._id}}</td>
+                <td>
+                    <button class="btn btn-outline-danger" (click)="eliminarReserva(v._id)">eliminar</button>
+                    <button class="btn btn-outline-primary" (click)="modificarReserva(v)" type="submit">Modificar</button>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="form" class="row g-3" #form="ngForm" (ngSubmit)="agregarDato(form)" >
+        <div class="col-md-2" >
+            <input [(ngModel)]="servicioLuis.datosRes.nombre" class="form-control" type="text" name="nombre" placeholder="Nombre">
+        </div>
+        <div  class="col-md-2">
+            <input [(ngModel)]="servicioLuis.datosRes.apellido" class="form-control" type="text" name="apellido" placeholder="Apellido">
+        </div>
+        <div  class="col-md-2">
+            <input [(ngModel)]="servicioLuis.datosRes.documento" class="form-control" type="text" name="documento" placeholder="Documento">
+        </div>
+        <div  class="col-md-2">
+            <input [(ngModel)]="servicioLuis.datosRes.f_entrada" class="form-control" type="text" name="f_entrada" placeholder="Fecha de Entrada">
+        </div>
+        <div  class="col-md-2">
+            <input [(ngModel)]="servicioLuis.datosRes.f_salida" class="form-control" type="text" name="f_salida" placeholder="Fecha de Salida">
+        </div>
+        <div  class="col-md-2">
+            <input [(ngModel)]="servicioLuis.datosRes.pais" class="form-control" type="text" name="pais" placeholder="Pais de Origen">
+        </div>
+        <div class="col-md-2">
+            <input [(ngModel)]="servicioLuis.datosRes.email" class="form-control" type="email" name="email" placeholder="Email">
+        </div>
+        <!-- <div class="col-md-2">
+            <input  [(ngModel)]="servicioLuis.datosRes._id" class="form-control" type="text" name="_id" placeholder="Codigo de su Reserva">
+        </div> -->
+        <div>
+            <input [(ngModel)]="servicioLuis.datosRes._id" type="hidden" name="_id">
+        </div>
+        <div class="boton">
+            <button class="btn btn-success" type="submit">Guardar</button>
+        </div>
+    </form>
+</div>
+
+<!-- <tr *ngFor="let v of servicioLuis.documentos">
+<td>{{v.documento}}</td>
+</tr> -->

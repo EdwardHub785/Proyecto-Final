@@ -1,0 +1,36 @@
+.table {
+   width: 90%;
+   margin-top: 40px;
+   background-color: rgb(211, 189, 63);
+   margin-left: 80px;
+   padding:15px;
+   
+ }
+
+ h2{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   color: white;
+  
+ }
+ .body{
+   background-image: url(https://img.freepik.com/foto-gratis/superficie-metal-rayado-estilo-grunge-oscuro_1048-12951.jpg?w=2000);
+   background-size: 100%;
+   height: 700px;
+   padding: 5px;
+ }
+
+ #form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+ }
+
+.boton{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+ }

@@ -1,0 +1,19 @@
+<form #formulario="ngForm" (ngSubmit)="consultarReserva(formulario)">
+<input type="hidden" name="documento" [(ngModel)]="servicioLuis.datosRes.documento">
+<!-- <button type="submit">Enviar</button> -->
+</form>
+
+<div class="divconsulta">
+    <div class="card" style="width: 18rem;">
+        <img src="/assets/logo.PNG" class="card-img-top" alt="...">
+        <form #formulario="ngForm" (ngSubmit)="consultarReserva(formulario)">
+            <div class="card-body">
+                <h5 class="card-title">Consulta tu Reserva</h5>
+                <input type="text" placeholder="Digita tu documento" name="documento"
+                   [(ngModel)]="servicioLuis.datosRes.documento" >
+                   <br><br>
+                <button type="submit" class="btn btn-primary">Consultar</button>
+            </div>
+        </form>
+    </div>
+</div>
